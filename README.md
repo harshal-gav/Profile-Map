@@ -44,13 +44,6 @@ Ensure you have the following installed:
    ```
    The app will be available at `http://localhost:5173/`.
 
-## Google Maps Setup
-1. Obtain a Google Maps API key from [Google Cloud Console](https://console.cloud.google.com/).
-2. Create a `.env` file in the project root and add your API key:
-   ```sh
-   VITE_GOOGLE_MAPS_API_KEY=your_api_key_here
-   ```
-3. Restart the development server.
 
 ## Deployment
 To build and deploy the application:
@@ -58,10 +51,5 @@ To build and deploy the application:
 npm run build
 ```
 The production-ready files will be available in the `dist/` folder. You can deploy this to any static hosting service like Vercel, Netlify, or GitHub Pages.
-
-## License
-This project is licensed under the MIT License.
-
----
 
 Feel free to contribute by submitting issues or pull requests! 🚀
